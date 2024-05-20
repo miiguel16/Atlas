@@ -1,0 +1,18 @@
+div.izquierda {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #449;
+    color: #fff;
+    padding: 15px;
+    justify-content: right;
+    float: right;
+  }
+  
+  div.breadcrumb-title img.izquierda {
+    float: right;
+    margin-right: 0;
+  }
+  div.reset {
+    clear: both;
+  }
+  

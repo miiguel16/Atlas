@@ -37,14 +37,9 @@ header{
 .breadcrumb-title{
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: 10px;
     color: #f8eded;
-    padding: 0px 120px;
+    padding: 0px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-content: space-around;
-}
-#sec1Text{
-    display: flex; 
-    justify-content: space-between; 
-
 }
