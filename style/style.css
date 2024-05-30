@@ -220,7 +220,6 @@ p{
     height: 100%;
 }
 
-
 #sec2Tex{
     display: flex;
     justify-content: center;
@@ -343,4 +342,27 @@ footer{
 }
 
 
-
+@media screen and (max-width: 1279px) {
+    body {
+    background-color: lightblue;
+    }
+    .containerHeader{
+        width: 40%;
+        height: 110%;
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 4% 5% ;
+    }
+    }
+    header{
+        height: auto;
+        width: 100%;
+        background-image: url(../assets/imagenes/banner-bk.jpg);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
