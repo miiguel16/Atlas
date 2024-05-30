@@ -343,9 +343,6 @@ footer{
 
 
 @media screen and (max-width: 1279px) {
-    body {
-    background-color: lightblue;
-    }
     .containerHeader{
         width: 40%;
         height: 110%;
@@ -355,14 +352,65 @@ footer{
         align-items: flex-start;
         flex-direction: column;
         padding: 4% 5% ;
-    }
+    
     }
     header{
         height: auto;
-        width: 100%;
-        background-image: url(../assets/imagenes/banner-bk.jpg);
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: column;
     }
+    #h1Header{
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    #textoHeader{
+        padding: 3% 0px;
+        font-size: 15px;
+        font-weight: 150;
+    }
+
+    #btnHeader{
+        padding: 0.5% 5px;
+        width: 170px;
+        height: 40px;
+        font-size: 23px;
+    }
+
+    h1{
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .contac-div{
+        padding: 0% 30px;
+        width: 50%;
+        height: 100%;
+    }
+
+    .containerSec2{
+        justify-content: space-around;
+    }
+
+    #sec2Tex{
+        padding: 10px 50px;
+    }
+    
+    #sec2TexN{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+.containerSec2{
+        justify-content: space-around;
+    }
+
+    #sec2Tex{
+        padding: 10px 40px;
+    }
+    
+    #sec2TexN{
+        padding: 20px 40px;
+    }
+}
