@@ -102,19 +102,23 @@ nav{
 	display: flex;
 	flex-direction: column;
 }
+
 #imgs-div{
 	display: flex;
 	justify-content: space-around;
 }
+
 #imgs2{
     height: 200px;
 	width: 200px;
 }
+
 .titles-sect1-2{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
+
 #html_word,#css_word,#brush_word{
 	display: flex;
 	font-size: 20px;
@@ -122,6 +126,7 @@ nav{
 	padding: 20px 10px;
 	justify-content: center;
 }
+
 .lorem-sect1-2{
 	display: flex;
 	justify-content: space-evenly;
@@ -229,6 +234,16 @@ p{
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
+#sec2Tex1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 28px 90px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 #sec2TexN{
     display: flex;
@@ -241,6 +256,8 @@ p{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 #botonSec2{
 
@@ -317,11 +334,17 @@ p{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     color: #ffffff;
     padding: 0% 50px;
     width: 50%;
     height: 100%;
+    line-height: 30px;
+}
+.contac-div h2 {
+    font-size: 60px;
+    line-height: 110px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
@@ -403,14 +426,60 @@ footer{
 @media screen and (max-width: 920px) {
 
 .containerSec2{
-        justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+    height: 80%;
+}   
+    #sec2Tex{
+        padding: 6px 35px;
+    }
+    #sec2Tex1{
+        padding: 25px 40px;
+    }
+    .contac-div{
+        padding: 0% 10px;
+        font-size: 8px;
+        width: 50%;
     }
 
-    #sec2Tex{
-        padding: 10px 40px;
+    .contac-div p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contac-div h2 {
+        font-size: 35px;
+    }
+
+    .inputs {
+    width: 50%;
     }
     
-    #sec2TexN{
-        padding: 20px 40px;
+    #image{
+        width: 40%;
+        height: auto;
     }
+    #sec2TexN{
+        padding: 20px 25px;
+        font-size: 20px;
+    }
+
+    .section3{
+        background-color: #f8f8f8;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        width: 100% ;
+        height: 20vh;
+    }
+
+    #clientes{
+        width: 15%;
+        height: auto;
+    }
+    
 }
