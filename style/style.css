@@ -425,7 +425,12 @@ footer{
 
 @media screen and (max-width: 920px) {
 
-.containerSec2{
+
+    .logo {
+        margin: 5%;
+    }
+
+    .containerSec2{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -437,9 +442,11 @@ footer{
     #sec2Tex{
         padding: 6px 35px;
     }
+
     #sec2Tex1{
         padding: 25px 40px;
     }
+
     .contac-div{
         padding: 0% 10px;
         font-size: 8px;
@@ -450,6 +457,7 @@ footer{
         font-size: 14px;
         line-height: 20px;
     }
+
     .contac-div h2 {
         font-size: 35px;
     }
@@ -462,6 +470,7 @@ footer{
         width: 40%;
         height: auto;
     }
+    
     #sec2TexN{
         padding: 20px 25px;
         font-size: 20px;
@@ -482,4 +491,7 @@ footer{
         height: auto;
     }
     
+    #sect2 {
+        font-size: 17px;
+    }
 }
