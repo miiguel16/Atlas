@@ -4,7 +4,6 @@
     box-sizing: content-box;
 }
 
-
 header{
     height: 75vh;
     width: 100%;
@@ -45,7 +44,6 @@ header{
     width: 100px;
 }
 
-
 .containerHeader{
     width: 50%;
     height: 100%;
@@ -70,6 +68,7 @@ header{
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 :root{
     --color-principal: #00ee9f;
     --color-secundario: #000000;
@@ -234,6 +233,7 @@ p{
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #sec2Tex1{
     display: flex;
     justify-content: center;
@@ -243,7 +243,6 @@ p{
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 #sec2TexN{
     display: flex;
@@ -256,8 +255,6 @@ p{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 #botonSec2{
 
@@ -290,6 +287,7 @@ p{
     flex-direction: row-reverse;
     border-color: #00ee9f;
 }
+
 #section5 {
     display: flex;
     align-items: center;
@@ -341,6 +339,7 @@ p{
     height: 100%;
     line-height: 30px;
 }
+
 .contac-div h2 {
     font-size: 60px;
     line-height: 110px;
@@ -425,7 +424,6 @@ footer{
 
 @media screen and (max-width: 920px) {
 
-
     .logo {
         margin: 5%;
     }
@@ -447,6 +445,10 @@ footer{
         padding: 25px 40px;
     }
 
+    #sec2TexN{
+        padding: 20px 25px;
+        font-size: 20px;
+    }
     .contac-div{
         padding: 0% 10px;
         font-size: 8px;
@@ -455,11 +457,11 @@ footer{
 
     .contac-div p{
         font-size: 14px;
-        line-height: 20px;
+        line-height: 15px;
     }
 
     .contac-div h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .inputs {
@@ -469,11 +471,6 @@ footer{
     #image{
         width: 40%;
         height: auto;
-    }
-    
-    #sec2TexN{
-        padding: 20px 25px;
-        font-size: 20px;
     }
 
     .section3{
@@ -493,5 +490,103 @@ footer{
     
     #sect2 {
         font-size: 17px;
+    }
+}
+@media screen and (max-width: 768px) { 
+    header{
+        height: 80vh;
+        width: auto;
+        background-image: url(../assets/imagenes/banner-bk.jpg);
+    }
+
+    #h1Header {
+        font-size: 35px;
+    }
+    #textoHeader {
+        font-size: 15px;
+    }
+
+    #sec2Tex{
+        padding: 6px 7px;
+        font-size: 15px;
+    }
+
+
+    #sec2Tex1{
+        padding: 25px 7px;
+        font-size: 15px;
+    }
+
+    #sec2TexN{
+        padding: 20px 7px;
+        font-size: 15px;
+    }
+
+    #btnHeader{
+        width: 140px;
+        height: 30px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+
+    #botonSec2{
+
+        width: 110px;
+        padding: 5px 5px; 
+        border-radius: 20px;
+        border: 2px solid #000000; 
+    }
+
+    #titleNav {
+        font-size: 28px;
+    }
+    #secion1-div{
+        width: 60%;
+        height: 100%;
+        font-size: 15px;
+    }
+    #secion1-div h1 {
+        font-size: 28px;
+    }
+
+    #secion1-div p {
+        font-size: 15px;
+    }
+
+    #botonsec1 {
+        width: 120px;
+    }
+    #image {
+        width: 130px;
+        height: auto;
+    }
+
+    #medium {
+        width: 140px;
+        height: auto;
+    }
+
+    #imgs2 {
+        width: 150px;
+        height: auto;
+    }
+
+    #btn-sec4{
+        width: 70px;
+        padding: 10px  50px;
+        font-size: 15px;
+    }
+
+    .contac-div{
+        padding: 0% 10px;
+        font-size: 8px;
+        width: 50%;
+    }
+    .inputs {
+        width: 50%;
+        }
+
+    #footer p {
+        font-size:20px ;
     }
 }
