@@ -423,7 +423,6 @@ footer{
 }
 
 @media screen and (max-width: 920px) {
-
     .logo {
         margin: 5%;
     }
@@ -436,7 +435,7 @@ footer{
     margin: 20px 0px;
     width: 100%;
     height: 80%;
-}   
+    }   
     #sec2Tex{
         padding: 6px 35px;
     }
@@ -449,6 +448,7 @@ footer{
         padding: 20px 25px;
         font-size: 20px;
     }
+
     .contac-div{
         padding: 0% 10px;
         font-size: 8px;
@@ -502,6 +502,7 @@ footer{
     #h1Header {
         font-size: 35px;
     }
+
     #textoHeader {
         font-size: 15px;
     }
@@ -510,7 +511,6 @@ footer{
         padding: 6px 7px;
         font-size: 15px;
     }
-
 
     #sec2Tex1{
         padding: 25px 7px;
@@ -530,7 +530,6 @@ footer{
     }
 
     #botonSec2{
-
         width: 110px;
         padding: 5px 5px; 
         border-radius: 20px;
@@ -589,4 +588,92 @@ footer{
     #footer p {
         font-size:20px ;
     }
+}
+@media screen and (max-width: 480px) { 
+    #logoHeader2 {
+        width: 70px;
+    
+    }
+    
+    #h1Header {
+        font-size: 15px;
+    }
+    #textoHeader {
+        font-size: 10px;
+    }
+
+    #sec2Tex{
+        padding: 20px 5px;
+        font-size: 13px;
+        width: 80px;
+    }
+
+    #botonSec2 {
+        width: 50px;
+    }
+
+    #sec2Tex h4 {
+        font-size: 10px;
+    }
+
+    #sec2Tex1{
+        padding: 20px 5px;
+        font-size: 15px;
+        width: 125px;
+    }
+
+    #sec2Tex1 h4{
+        font-size: 10px;
+    }
+
+    #sec2Tex1 h2{
+        font-size: 20px;
+    }
+
+    #sec2TexN{
+        padding: 20px 5px;
+        font-size: 15px;
+        width: 115px;
+    }
+
+    #sec2TexN h2{
+        font-size: 20px;
+    }
+
+    #btnHeader {
+        width: 70px;
+    }
+
+    #sec2TexN{
+        font-size: 10px;
+    }
+
+    #medium {
+        width: 90px;
+    }
+
+    #seccion2-h1 {
+        font-size: 30px;
+    }
+    #imgs2 {
+        height: 140px;
+        width: 120px;
+    }
+
+    #sect2{
+        font-size: 12px;
+    }
+
+    #html_word {
+        font-size: 15px;
+    }
+
+    #css_word {
+        font-size: 15px;
+    }
+
+    #brush_word {
+        font-size: 16px;
+    }
+
 }
